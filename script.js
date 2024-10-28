@@ -8,7 +8,15 @@ $(document).ready(function () {
         4: { start: '12:41 PM', end: '1:48 PM' },
         5: { start: '1:53 PM', end: '3:00 PM' }
       }
-
+      const dailyPeriods = {
+        A: [1, 2, 3, "Lunch", 5, 6],
+        B: [4, 1, 2, "Lunch", 7, 5],
+        C: [3, 4, 1, "Lunch", 6, 6],
+        D: [2, 3, 4, "Lunch", 5, 6],
+        E: [1, 2, 3, "Lunch", 7, 5],
+        F: [4, 1, 2, "Lunch", 6, 7],
+        G: [3, 4, 7, "Lunch", 5, 6]
+    };
 
     btn.on('click', function () {
         const selectedDay = $("#dayInput").val().trim().toUpperCase();
