@@ -1,0 +1,13 @@
+body{
+    background-image: url('imgs/schedulesitebg.jpg');
+}
+.table{
+    background-color: darkgreen;
+    border: 8px solid rgb(180, 120, 51);
+}
+th{
+    border: 5px solid white;
+    font-family: "Lacquer", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
