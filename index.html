@@ -7,18 +7,19 @@
     <title>Where Should I Be Right Now?</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1 class="text-center">Where Should I Be Right Now?</h1>
 
         <div class="form-group">
-            <label for="dayInput">Select Day (A-G):</label>
+            <label for="dayInput" class="dayinput">Select Day (A-G):</label>
             <input type="text" id="dayInput" class="form-control" placeholder="Enter your letter day:">
-            <button id="submitDay" class="btn btn-dark mt-2">Show Schedule</button>
+            <button id="submitDay" class="btn btn-dark mt-2" style="background-color: darkgreen; border: 5px solid rgb(180, 120, 51)">Show Schedule</button>
         </div>
 
         <div class="schedule">
@@ -40,4 +41,5 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
